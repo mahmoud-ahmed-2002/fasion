@@ -1,0 +1,115 @@
+.account-sidebar .tab-title-bg {
+  padding: 12px 15px;
+}
+.dark-bg {
+  background: #141414;
+  color: #fff;
+}
+.account-sidebar .sub-title span {
+  background: url(../image/sprite.png) no-repeat scroll -97px -456px;
+  display: inline-block;
+  height: 21px;
+  margin-bottom: -5px;
+  width: 21px;
+}
+.checkout-section .nav-item {
+  border-bottom: 1px solid #dcdcdc;
+  position: relative;
+}
+.nav-item .nav-link i {
+  position: absolute;
+  right: 15px;
+  top: 12px;
+  transition: all 0.4s ease 0s;
+}
+.nav-link.active i,
+.nav-pills .nav-link:hover i {
+  right: 0px;
+}
+.nav-link.active::after,
+.nav-pills .nav-link:hover::after {
+  content: "";
+  border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0)
+    var(--main-color);
+  border-style: solid;
+  border-width: 20px 22px 20px 15px;
+  position: absolute;
+  right: -37px;
+  top: 0px;
+}
+.nav-tabs {
+  border-bottom: 0px solid #dee2e6;
+}
+.nav-pills .nav-link {
+  width: 100%;
+  text-align: start;
+}
+.nav-pills .nav-link {
+  background: #f0f0f0 none repeat scroll 0 0;
+  color: #6d6d6d;
+  border-radius: 0px;
+  margin-bottom: 0px;
+}
+.nav-pills .nav-link.active,
+.nav-pills .nav-link:hover {
+  background-color: var(--main-color);
+  color: #fff;
+}
+
+/* ----------------------- */
+.checkout-section h2.heading {
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.heading-bg h2.heading {
+  background: #f0f0f0;
+  padding: 8px 17px;
+}
+
+.checkout-section h3.sub-heading {
+  font-size: 21px;
+  line-height: 32px;
+  color: #1b2839;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+.account-content p,
+.address-box p {
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+.checkout-section ul li {
+  display: block;
+}
+
+.change-pass {
+  border: 1px solid black;
+}
+
+.commun-table th ul li {
+  text-align: left;
+  margin-right: 30px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.commun-table th span {
+  float: left;
+  font-size: 14px;
+  font-weight: 400;
+  clear: both;
+}
+.commun-table th ul .price-box {
+  display: inline-block;
+  left: 150px;
+}
+.commun-table th ul li:last-child {
+  margin-right: 0;
+  right: 0;
+}
+

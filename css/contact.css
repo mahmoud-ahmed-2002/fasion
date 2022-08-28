@@ -1,0 +1,78 @@
+.client-main {
+    padding-bottom: 50px;
+}
+
+.p-0 .contact-box {
+    border-right: 1px solid #e1e1e1;
+}
+
+.contact-box p, .contact-icon {
+    color: #666666;
+}
+
+.contact-icon {
+    padding-bottom: 2px;
+    font-size: 25px;
+}
+
+.contact-box p {
+    padding-top: 10px;
+}
+
+.main-form input, .main-form textarea {
+    width: 100%;
+    background: #e1e1e1;
+    padding: 13px 15px;
+    border: 1px solid #e1e1e1;
+    min-height: 40px;
+    color: var(--main-color);
+}
+
+:focus-visible {
+    outline: #e1e1e1 auto 1px;
+}
+::placeholder { 
+    color: var(--main-color);
+  }
+
+.contact-info {
+    /* background: linear-gradient(to bottom, #730099 0%, #9305c2 100%); */
+    margin-top: 60px;
+}
+
+.single-contact-info {
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    margin-top: 20px;
+    background: linear-gradient(to bottom, #730099 0%, #9305c2 100%);
+    color: #fff;
+}
+
+.inner-contact {
+    padding: 20px;
+    margin-left: 10px;
+}
+
+.icon-contact {
+    border: 2px solid;
+    background: #fff;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 50%;
+    position: relative;
+}
+
+.icon-contact i {
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--main-color);
+}
+
+.detail-contact {
+    display: inline-block;
+    padding-left: 20px;
+}

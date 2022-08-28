@@ -1,0 +1,42 @@
+.nav .nav-link{
+    width: 33%;
+    position: relative;
+}
+.nav .nav-link.active{
+    background: transparent;
+}
+.nav .nav-link::before {
+    content: '';
+    height: 5px;
+    width: 100%;
+    background-color: #e0e0e0;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: -1;
+}
+.nav .nav-link.active2::before{
+    background-color: var(--main-color);
+}
+span.round-tab {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    border-radius: 100px;
+    background: #b0b0b1;
+    border: 8px solid #eeeeee;
+    z-index: 2;
+    text-align: center;
+    font-size: 25px;
+    position: absolute;
+    top: -50%;
+}
+.nav .nav-link.active span.round-tab{
+    background: var(--main-color);
+    border-width: 5px;
+}
+
+#nav-tabContent{
+    margin: 50px auto;
+}

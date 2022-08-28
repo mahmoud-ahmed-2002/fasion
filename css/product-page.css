@@ -1,0 +1,245 @@
+.product-detail-main .product-item-details .product-item-name {
+  font-size: 33px;
+  margin-bottom: 10px;
+  text-transform: lowercase;
+  font-weight: 400;
+}
+
+.product-item-details .price-box {
+  margin-top: 25px;
+}
+
+.product-item-details .price-box span {
+  margin-right: 5px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.product-info-stock-sku {
+  margin-top: 14px;
+  margin-bottom: 20px;
+}
+
+.product-info-stock-sku .info-stock-sku,
+.product-info-stock-sku .info-stock-sku label,
+.product-info-stock-sku .info-stock-sku span {
+  display: inline-block;
+}
+
+.product-info-stock-sku .info-stock-sku {
+  margin-right: 12px;
+}
+
+.product-info-stock-sku .info-stock-sku label {
+  font-weight: 400;
+  margin-bottom: 5px;
+  max-width: 100%;
+}
+
+.product-info-stock-sku .info-deta {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.product-info-stock-sku p {
+  line-height: 20px;
+  margin-top: 20px;
+}
+
+.form-control {
+  border-color: #e1e1e1;
+  border-radius: 0px;
+  height: 40px;
+}
+.box-qty{
+  border: 1px solid #e1e1e1;
+  border-radius: 5px;
+}
+button.count {
+  background: transparent;
+  border: 0px solid #e1e1e1;
+  color: #888;
+  padding: 10px;
+  line-height: 25px;
+  outline: none;
+  border-radius: 5px;
+  transition: all 0.2s;
+}
+
+button.count i {
+  font-size: 12px;
+}
+button.count:hover i{
+color: var(--main-color);
+}
+
+.product-qty input {
+  width: 40px;
+  text-align: center;
+  border: 0px solid #e1e1e1;
+}
+
+/* button.count:hover {
+  background: var(--main-color);
+  color: #fff;
+} */
+
+.pro-cart-icon {
+  border-radius: 50px;
+  padding: 10px;
+  padding: 8px 14px 8px 5px;
+  font-size: 14px;
+  font-weight: 400;
+  transition: all 0.6s;
+  border: none;
+}
+
+.pro-cart-icon span {
+  background: rgba(0, 0, 0, 0) url(../image/sprite.png) no-repeat scroll -11px -353px;
+  display: inline-block;
+  height: 25px;
+  margin-bottom: -8px;
+  transition: all 0.2s ease 0s;
+  width: 30px;
+}
+
+.product-detail-main .detail-inner-left ul li {
+  padding-right: 20px;
+}
+
+.detail-inner-left ul li.pro-email-icon a {
+  background-position: -43px -453px;
+}
+
+.detail-inner-left ul li.pro-email-icon a:hover {
+  background-position: -43px -488px;
+}
+
+.product-detail-main .detail-inner-left ul li a {
+  border: 1px solid #e1e1e1;
+}
+
+.brand-logo-pro {
+  background: #f5f5f5;
+  text-align: center;
+}
+
+.sub-banner-block {
+  text-align: center;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.product-detail-tab .nav-link {
+  color: #888;
+  font-size: 16px;
+}
+
+.product-detail-tab .nav-link:hover {
+  color: var(--main-color);
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: var(--main-color);
+}
+
+.nav-tabs {
+  border-bottom: 1px solid #e1e1e1;
+  padding-bottom: 10px;
+}
+
+.comment-user {
+  float: left;
+  margin-right: 20px;
+}
+
+.comment-detail {
+  display: table-cell;
+  padding-bottom: 10px;
+}
+
+.comment-list > li {
+  width: 100%;
+  padding-top: 20px;
+  border-top: 1px solid #e1e1e1;
+}
+
+.comment-list > li:first-child {
+  padding-top: 0px;
+  border-top: 0px solid #e1e1e1;
+}
+.comment-list2 > li:first-child {
+  padding-top: 20px;
+  border-top: 1px solid #e1e1e1;
+}
+
+.comment-detail .user-name {
+  text-transform: uppercase;
+  color: #232323;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1.1;
+}
+
+.comment-detail .post-info ul li {
+  float: left;
+  margin-right: 15px;
+  font-size: 14px;
+  padding: 0;
+}
+
+.comment-detail .post-info ul li a {
+  color: #6d6d6d;
+}
+
+.comment-detail .post-info ul li a:hover {
+  color: var(--main-color);
+}
+
+/*   slider of product-blog */
+
+.mySwiper2 img {
+  width: 500px;
+  height: auto;
+}
+.mySwiper {
+  width: 100%;
+  height: auto;
+}
+
+.mySwiper img {
+  padding: 0px 10px;
+  width: 150px;
+  height: 160px;
+  display: inline-block;
+}
+
+/* .slick-arrow {
+  background: var(--main-color);
+  border-radius: 50%;
+}
+
+
+.slick-next:hover,.slick-prev:hover{
+background: #cb0000;
+}
+
+.slick-prev::before {
+  content: "";
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(135deg);
+}
+.slick-next::before {
+  content: "";
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-45deg);
+} */

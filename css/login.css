@@ -1,0 +1,12 @@
+.register-form p{
+    font-size: 0.8125rem;
+    line-height: 1.6;
+}
+
+a{
+    color: var(--main-color);
+}
+.register-form{
+    border-left: 1px solid #e1e1e1;
+    padding-left: 25px;
+}

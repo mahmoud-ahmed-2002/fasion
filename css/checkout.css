@@ -1,0 +1,179 @@
+
+/* --------------- button disabled */
+
+button:disabled{
+  display: none;
+}
+a.disabled{
+  pointer-events: none;
+}
+
+/* ----------- css of checkout  */
+.my-order {
+  border: 1px solid #e1e1e1;
+  padding: 10px 20px;
+}
+
+.title-order {
+  border-bottom: 1px solid #888;
+  margin-bottom: 10px;
+}
+
+.order-table th {
+  width: 100%;
+  border-bottom: 1px solid #888;
+  padding: 20px 20px 20px 0px;
+}
+
+.order-table td {
+  padding: 20px 5px 20px 0px;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+/*  ------------ radio div switch */
+.switch-field {
+  display: flex;
+  overflow: hidden;
+  text-align: left;
+}
+
+.switch-field input {
+  position: absolute !important;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  width: 1px;
+  border: 0;
+  overflow: hidden;
+}
+
+.switch-field label {
+  background-color: transparent;
+  color: #666666;
+  font-size: 14px;
+  line-height: 1;
+  text-align: center;
+  padding: 10px 12px;
+  margin-left: 10px;
+  border: 1px solid #ddd;
+  transition: all 0.1s ease-in-out;
+}
+
+.switch-field label:hover {
+  cursor: pointer;
+}
+
+.switch-field input:checked + label {
+  background-color: #f4f5f9;
+  box-shadow: none;
+  border-color: #3e7de7;
+  color: #3e7de7;
+}
+
+.switch-field label:first-of-type {
+  border-radius: 2px 0px 0px 2px;
+}
+
+.switch-field label:last-of-type {
+  border-radius: 0px 2px 2px 0px;
+}
+/*  ------------ radio div switch */
+
+/* ------ Wizard checkout */
+
+.nav .nav-link {
+  width: 33%;
+  position: relative;
+}
+.nav .nav-link.active {
+  background: transparent;
+}
+.nav .nav-link::before {
+  content: "";
+  height: 5px;
+  width: 100%;
+  background-color: #e0e0e0;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  z-index: -1;
+}
+.nav .nav-link.active2::before {
+  background-color: var(--main-color);
+}
+span.round-tab {
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  display: inline-block;
+  border-radius: 100px;
+  background: #b0b0b1;
+  border: 5px solid #eeeeee;
+  z-index: 2;
+  text-align: center;
+  font-size: 25px;
+  position: absolute;
+  top: -50%;
+  transform: translateY(7px);
+}
+.nav .nav-link.active span.round-tab {
+  background: var(--main-color);
+  border-width: 4px;
+}
+
+#nav-tabContent {
+  margin: 50px auto;
+}
+#registration{
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+/* --------- payment */
+
+.payment .labl {
+  background: #fafafa;
+  border: 1px solid #e1e1e1;
+  border-radius: 5px;
+  margin: 4px auto;
+  position: relative;
+  display : block;
+}
+.payment div{
+    padding-left: 20px;
+}
+
+.payment input{
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  width: 1px;
+  border: 0;
+  overflow: hidden;
+}
+
+.payment img{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.labl > input{ /* HIDE RADIO */
+  visibility: hidden; /* Makes input not-clickable */
+  position: absolute; /* Remove input from document flow */
+}
+.labl > input + div{ /* DIV STYLES */
+  cursor:pointer;
+  border:2px solid transparent;
+}
+.labl > input:checked + div{ /* (RADIO CHECKED) DIV STYLES */
+  background-color: #f4f5f9;
+  border: 1px solid var(--main-color);
+}
+
+/* ----------- table */
+.table ul{
+  margin-top: 32px;
+  margin-bottom: 0;
+
+}

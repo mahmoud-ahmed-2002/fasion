@@ -1,0 +1,265 @@
+@media only screen and (max-width: 1220px) {
+
+  .header-top,
+  .header-bottom {
+    padding: 0;
+    line-height: 40px;
+  }
+
+  .header-right-part {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .new-arrivals {
+    width: 1170px;
+    max-width: 100%;
+    margin: 0px;
+  }
+
+  .product-image {
+    max-width: 95%;
+  }
+
+  .product-detail-inner {
+    top: 30%;
+    bottom: 0%;
+  }
+
+  .product-item .detail-inner-left ul li {
+    margin-bottom: 20px;
+  }
+
+  .detail-inner-left ul li {
+    display: block;
+    margin-top: -10px;
+  }
+
+  .feature-box {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .section-carousel .my-btn {
+    padding: 10px 13px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .sidebar-menu-dropdown {
+    display: none;
+  }
+
+  .menu-navbar {
+    z-index: 12364;
+    background-color: #212529;
+    margin-top: 5px;
+  }
+
+  .new-arrivals {
+    margin: 0px;
+  }
+
+  .footer-static-block {
+    position: relative;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #e1e1e1;
+  }
+
+  .footer-static-block .icon-click {
+    display: inline-block;
+    position: absolute;
+    right: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    z-index: 1;
+  }
+
+  .footer-static-block .footer-block-contant {
+    display: none;
+  }
+
+  .icon-click {
+    display: block;
+  }
+
+  .icon-click:hover {
+    color: red;
+  }
+
+  .banner-detail {
+    left: 30px;
+  }
+  .banner-detail .banner-detail-inner span.slogan {
+    font-size: 16px;
+    padding-bottom: 0;
+  }
+
+  .banner-detail .banner-detail-inner .banner-title {
+    font-size: 25px;
+    line-height: 25px;
+    margin-bottom: 27px;
+  }
+
+  .banner-detail .banner-detail-inner .offer {
+    display: none;
+  }
+
+  .sub-banner .sub-banner-detail a {
+    display: none;
+  }
+
+  .product-image {
+    max-width: 95%;
+  }
+
+  .product-detail-inner {
+    top: 30%;
+    bottom: 0%;
+  }
+
+  .product-item .detail-inner-left ul li {
+    margin-bottom: 20px;
+  }
+
+  .detail-inner-left ul li {
+    display: block;
+    margin-top: -10px;
+  }
+
+  .feature-box {
+    margin-bottom: 20px;
+  }
+
+  .sub-banner .sub-banner-detail {
+    right: 5px;
+  }
+  .sub-banner .sub-banner-detail .sub-banner-title{
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .main-search {
+    width: 280px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1450px) {
+  .main-search {
+    width: 200px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1400px) {}
+
+
+/* ------------------   responsive of shop html  */
+@media only screen and (max-width: 992px) {
+  .shop-icon-click {
+    display: block;
+  }
+
+  .sidebar-contant {
+    display: none;
+  }
+
+  .sidebar-item ul li {
+    display: inline-block;
+    padding-right: 50px;
+    text-align: center;
+  }
+
+  .short-by {
+    float: right;
+  }
+
+  .shorting, .show-item {
+    padding-top: 20px;
+  }
+
+  .compare {
+    float: right;
+  }
+
+  .list .detail-inner-left ul li {
+    display: inline-block;
+  }
+
+  .list .product-detail-inner {
+    top: 75%;
+  }
+
+  .list .product-image {
+    width: auto;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .list .detail-inner-left ul li {
+    display: inline-block;
+  }
+
+  .list .product-detail-inner {
+    top: 75%;
+  }
+
+  .list .product-image {
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 765px) {
+  .list .product-detail-inner {
+    top: 100%;
+  }
+
+  .list .product-item-detail p {
+    margin-top: 10px;
+  }
+  .sub-banner .sub-banner-detail {
+    right: 100px;
+  }
+  .sub-banner .sub-banner-detail .sub-banner-title{
+    font-size: 40px;
+    margin: 20px auto;
+  }
+}
+
+
+/* ----------------- responsive of about html */
+@media only screen and (max-width: 1200px) {
+  .client-image {
+    text-align: center;
+    float: none;
+  }
+
+  .quote {
+    float: none;
+    text-align: center;
+    border: 0px;
+  }
+
+  .partner-detail-main {
+    margin-top: 40px;
+  }
+}
+
+
+/* ----------------- responsive of product-page html */
+
+@media only screen and (max-width: 1200px) {
+  .product-detail-main .detail-inner-left ul li {
+    display: inline-block;
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 992px){
+  .product-item-details{
+    margin-top: 40px;
+    text-align: center;
+  }
+}
